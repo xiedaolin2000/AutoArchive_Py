@@ -1,0 +1,13 @@
+MakeBIN.sh SMAP升级包制作脚本使用说明:
+
+该脚本用户自动制作SMAP 升级BIN包,制作步骤如下:
+1.对于SMAP归档时,SRC,RUN包的归档步骤不变;
+2.在制作完RUN包后,将制作后的RUN包及MakeBIN.sh脚本上传至归档报制作目录
+如: smapupd用户的 gxhupd下;
+注意:RUN包使用二进制上传,脚本使用ASC上传,当然,如果上传方式不对,脚本运行会报错.
+
+3.如果你上传的RUN名为:CIN_EVPNV3.1D101_SMAP_RUN.zip,
+执行如下命令生成生机包:
+MakeBIN.sh CIN_EVPNV3.1D101_SMAP_RUN.zip CIN_EVPNV3.1D102_SMAP_UPD.BIN
+
+真的很方便哦~~
